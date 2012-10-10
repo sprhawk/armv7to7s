@@ -35,6 +35,6 @@ hack armv7 lib to armv7s lib:
 5. add armv7s lib into original fat bin
 
     ```shell
-    xcrun -sdk iphoneos lipo -create fatbin armv7s.a -output newfatbin
+    lipo -create fatbin armv7s.a -output newfatbin
     ```
 
