@@ -15,7 +15,7 @@ hack armv7 lib to armv7s lib:
 3. convert all armv7 object file to armv7s object file
 >>    find . -name "*.o" -exec ./armv7to7s {} {}7s \;
 4. archive all armv7s object file into a static lib
->>    ar -r armv7s.a *.o
+>>    ar -r armv7s.a *.o7s
 5. add armv7s lib into original fat bin
 >>    lipo -create fatbin armv7s.a -output newfatbin
 
