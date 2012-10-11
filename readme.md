@@ -1,6 +1,19 @@
 convert armv7 to armv7s arch type
 ================================
 
+What's new
+----------
+added a handy conversion shell script: convert.sh
+just execute
+```shell
+convert.sh old_universal_binary new_universal_binary
+```
+
+to get a new armv7s binary included universal binary.
+
+Introduction
+------------
+
 reference to http://www.galloway.me.uk/2012/09/hacking-up-an-armv7s-library/
 
 built binary files: https://github.com/downloads/sprhawk/armv7to7s/bin.zip
